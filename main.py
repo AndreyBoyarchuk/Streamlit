@@ -1,16 +1,16 @@
-# This is a sample Python script.
+import streamlit as st
+import yfinance as yf
+import pandas as pd
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+st.write("""
+#Simple Stock Price App
+Shown are the stock closing 
 
+""")
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+tickerSymbol ='GOOGl'
+tickerData=yf.Ticker(tickerSymbol)
+tickerDf =tickerData.history(period='1d', start='2010-5-31', end ='2021-5-31')
 
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+st.line_chart(tickerDf.Close)
+st.line_chart(tickerDf.Volume)
