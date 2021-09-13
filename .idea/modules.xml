@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../AlgorithmsAndDataStructure/.idea/AlgorithmsAndDataStructure.iml" filepath="$PROJECT_DIR$/../AlgorithmsAndDataStructure/.idea/AlgorithmsAndDataStructure.iml" />
       <module fileurl="file://$PROJECT_DIR$/../BarcodeScanner/.idea/BarcodeScanner.iml" filepath="$PROJECT_DIR$/../BarcodeScanner/.idea/BarcodeScanner.iml" />
       <module fileurl="file://$USER_HOME$/PycharmProjects/LeafLet/.idea/LeafLet.iml" filepath="$USER_HOME$/PycharmProjects/LeafLet/.idea/LeafLet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../MathEquations/.idea/MathEquations.iml" filepath="$PROJECT_DIR$/../MathEquations/.idea/MathEquations.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Streamlit.iml" filepath="$PROJECT_DIR$/.idea/Streamlit.iml" />
     </modules>
   </component>

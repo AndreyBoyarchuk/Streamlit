@@ -6,5 +6,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="BarcodeScanner" />
     <orderEntry type="module" module-name="LeafLet" />
+    <orderEntry type="module" module-name="MathEquations" />
+    <orderEntry type="module" module-name="AlgorithmsAndDataStructure" />
   </component>
 </module>
